@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootprot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<style>
+    body{
+        color: silver;
+        background-color: rgb(8, 194, 201);
+    }
+    label{
+        background-color: rgb(245, 8, 8)
+    }
+    #p{
+        color: azure;
+        background-color: black;
+    }
+    span{
+        color: rgb(255, 0, 0);
+    }
+</style>
+<script src="botrap.js"></script>
+
+
+</head>
+<body>
+<div align="center">
+    <p class="text-light bg-secondary display-4">RGS Infotech</p>
+    <img src="images (1).jpg" alt="no available" width="300px"></div>
+    <form name="boos" onsubmit="active()" action="#">
+        <div class="mt-3"><label>Enter Your Name :</label>
+            <input type="text" name="named" placeholder="enter your name" class="form-control col-2"> <span id="myname"></span> </div>
+        <div class="mt-3"> <label>Enter Email :</label>
+            <input type="email" name="emai" placeholder="abc123@gmail.com" class="form-control col-2">
+        <span id="myemail"></span></div>
+        <div class="mt-3"><label >Enter Mobileno :</label>
+            <input type="tel" name="mobno" placeholder="enter mobile no" class="form-control col-2"><span id="mymob"></span></div>
+            <div class="mt-3">
+                <label>Date of Birth :</label>
+                <input type="date" name="dob" placeholder="DD/MM/YYYY" class="form-control col-2">
+            <span id="dob"></span></div>
+        <div class="mt-3">
+            <label>Enter your course :</label>
+            <select class="form-select">
+            <option hidden selected>Select course</option>
+            <option>Java full STack devolpment</option>
+            <option>Python Web Devolpment</option>
+            <option>Java selenium</option>
+            <option >C</option>
+            <option>C++</option> <option>Tally</option> <option>Web designing and CADD Designing</option>
+        </select></div>
+        <div class="mt-3">
+            <label>Enter your Qualification :</label>
+            <select class="form-select">
+                <option hidden selected>select qualification</option>
+                <option>B.E</option>
+                <option>B.COM</option>
+                <option>B.A</option>
+                <option>M.E</option>
+                <option>M.COM</option>
+                <option>M.A</option>
+            </select>
+        </div>
+        <div class="mt-3" align="center">
+            <button class="btn btn-secondary">Signin</button>
+            <button class="btn btn-danger">Cancel</button>
+        </div>
+        
+<div align="center" class="mt-3">
+    <div class="card-col-5" ><img src="./images.jpg" class="card-img-rounded-circle" style="height: 300px"></div>
+    <p class="card-subtitle" style="color: red;">Become Front End and Backend Devolper </p>
+    <p class="card-subtitle" style="color: red;">Become a Unique Web Devolper</p>
+<div align="center" class="mt-3">
+    <label>Enter password </label>
+    <input type="password" class="btn btn-primary" value="Signin">
+    <input type="reset" class="Btn btn-danger" value="Cancel">
+</div>
+
+
+</body>
+</html>
